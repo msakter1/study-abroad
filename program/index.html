@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/program.css">
+    <title>Study Abroad</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="../index.html">
+                <button class="nav-button"><i class="fa-solid fa-house"></i> Home</button>
+            </a>
+            <a href="index.html" class="active">
+                <button class="nav-button"><i class="fa fa-folder-open"></i> Programs</button>
+            </a>
+            <a href="../info/index.html">
+                <button class="nav-button"><i class="fa fa-info-circle"></i> Info</button>
+            </a>
+            <a href="../vlog/index.html">
+                <button class="nav-button"><i class="fa fa-video-camera"></i> Vlogs</button>
+            </a>
+        </div>
+    </nav>
+
+    <!--Search Bar -->
+    <!-- <div class="search-bar">
+    </div> -->
+
+    <!-- Program Grid -->
+    <!-- <div class="program-grid">
+    </div> -->
+
+    
+    <!-- online search bar --> 
+    <div class="main-search">
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search programs...">
+    
+        <select id="termSelect">
+            <option value="">Term</option>
+            <option value="fall">Fall</option>
+            <option value="winter">Winter</option>
+            <option value="spring">Spring</option>
+            <option value="summer">Summer</option>
+        </select>
+        
+        <select id="countrySelect">
+            <option value="">Select Country</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Australia">Australia</option>
+            <option value="Austria">Austria</option>
+            <option value="Belgium">Belgium</option>
+            <option value="Bhutan">Bhutan</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Canada">Canada</option>
+            <option value="Chile">Chile</option>
+            <option value="China">China</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Costa-rica">Costa Rica</option>
+            <option value="Croatia">Croatia</option>
+            <option value="Czech-republic">Czech Republic</option>
+            <option value="Denmark">Denmark</option>
+            <option value="Ecuador">Ecuador</option>
+            <option value="Estonia">Estonia</option>
+            <option value="Finland">Finland</option>
+            <option value="France">France</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Germany">Germany</option>
+            <option value="Greece">Greece</option>
+            <option value="Hungary">Hungary</option>
+            <option value="Iceland">Iceland</option>
+            <option value="India">India</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Ireland">Ireland</option>
+            <option value="Israel">Israel</option>
+            <option value="Italy">Italy</option>
+            <option value="Japan">Japan</option>
+            <option value="Kazakhstan">Kazakhstan</option>
+            <option value="Latvia">Latvia</option>
+            <option value="Lithuania">Lithuania</option>
+            <option value="Luxembourg">Luxembourg</option>
+            <option value="Malaysia">Malaysia</option>
+            <option value="Malta">Malta</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Mongolia">Mongolia</option>
+            <option value="Netherlands">Netherlands</option>
+            <option value="New Nealand">New Zealand</option>
+            <option value="Norway">Norway</option>
+            <option value="Philippines">Philippines</option>
+            <option value="Poland">Poland</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Romania">Romania</option>
+            <option value="Russia">Russia</option>
+            <option value="Slovakia">Slovakia</option>
+            <option value="Slovenia">Slovenia</option>
+            <option value="South Korea">South Korea</option>
+            <option value="Spain">Spain</option>
+            <option value="Sweden">Sweden</option>
+            <option value="Switzerland">Switzerland</option>
+            <option value="Taiwan">Taiwan</option>
+            <option value="Turkey">Turkey</option>
+            <option value="Ukraine">Ukraine</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="United States">United States</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Vietnam">Vietnam</option>
+        </select>
+
+        <button id="filterToggle">Filters</button>
+        <button id="mainSearchButton">Search</button>
+    </div>
+    
+    <!-- Filter Popup -->
+    <div id="filterPopup" class="popup hidden">
+        <select id="offeredBy">
+            <option value="">Offered By</option>
+            <!-- Major Study Abroad Providers -->
+            <option value="CIEE">CIEE</option>
+            <option value="API">API</option>
+            <option value="ISA">ISA</option>
+            <option value="SIT">SIT</option>
+            <option value="KIIS">KIIS</option>
+            <option value="KCJS">KCJS</option>
+            <option value="USAC">USAC</option>
+            <option value="AFS">AFS</option>
+            <option value="NSE">NSE</option>
+            <option value="Global Nomads Group">Global Nomads Group</option>
+            <option value="Ies Abroad">IES Abroad</option>
+
+            <option value="aifs">AIFS Study Abroad</option>
+            <option value="capa">CAPA: The Global Education Network</option>
+            <option value="sai-programs">SAI Programs</option>
+            <option value="the-education-abroad-network">TEAN</option>
+            <option value="Semester at Sea">Semester at Sea</option>
+
+            <!-- Internship Abroad Providers -->
+            <option value="intern-group">The Intern Group</option>
+            <option value="absolute-internship">Absolute Internship</option>
+            <option value="ies-internships">IES Internships</option>
+            <option value="ciee-internships">CIEE Internships</option>
+            <option value="asia-internship-program">Asia Internship Program (AIP)</option>
+            <option value="global-experiences">Global Experiences</option>
+            <option value="globalinks">Globalinks</option>
+            <option value="world-internship">World Internships</option>
+            <option value="virtual-internships">Virtual Internships</option>2
+        </select>
+        
+        <select id="studyLevel">
+            <option value="">Study Level</option>
+            <option value="undergraduate">Undergraduate</option>
+            <option value="graduate">Graduate</option>
+        </select>
+    
+        <select id="field">
+            <option value="">Select Field</option>
+            <option value="Anthropology">Open</option>
+            <option value="Anthropology">Anthropology</option>
+            <option value="Arts">Arts</option>
+            <option value="Business">Business</option>
+            <option value="Biology">Biology</option>
+            <option value="Biomedical Engineering">Biomedical Engineering</option>
+            <option value="Civil Engineering">Civil Engineering</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Communications">Communications</option>
+            <option value="Chemistry">Chemistry</option>
+            <option value="Data Science">Data Science</option>
+            <option value="Economics">Economics</option>
+            <option value="Entrepreneurship">Entrepreneurship</option>
+            <option value="Environmental Science">Environmental Science</option>
+            <option value="Environmental Studies">Environmental Studies</option>
+            <option value="Electrical Engineering">Electrical Engineering</option>
+            <option value="Engineering">Engineering</option>
+            <option value="Finance">Finance</option>
+            <option value="Film & Media">Film & Media</option>
+            <option value="General Education">General Education</option>
+            <option value="Information Technology">Information Technology</option>
+            <option value="International Relations">International Relations</option>
+            <option value="Language">Language</option>
+            <option value="Language">Language & Culture</option>
+            <option value="Language">Literature</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Mechanical Engineering">Mechanical Engineering</option>
+            <option value="Physics">Physics</option>
+            <option value="Political Science">Political Science</option>
+            <option value="Public Health">Public Health</option>
+            <option value="Psychology">Psychology</option>
+            <option value="Social Work">Social Work</option>
+        </select>
+        
+        <select id="type">
+            <option value="">Type</option>
+            <option value="study abroad">Study Abroad</option>
+            <option value="internship abroad">Internship Abroad</option>
+            <option value="research">Research</option>
+        </select>
+        
+        <select id="language">
+            <option value="">Select Language</option>
+            <option value="English">English</option>
+            <option value="Spanish">Spanish</option>
+            <option value="French">French</option>
+            <option value="German">German</option>
+            <option value="Italian">Italian</option>
+            <option value="Portuguese">Portuguese</option>
+            <option value="Chinese (M)">Chinese (Mandarin)</option>
+            <option value="Chinese (C)">Chinese (Cantanese)</option>
+            <option value="Japanese">Japanese</option>
+            <option value="Korean">Korean</option>
+            <option value="Arabic">Arabic</option>
+            <option value="Russian">Russian</option>
+            <option value="Dutch">Dutch</option>
+            <option value="Swedish">Swedish</option>
+            <option value="Norwegian">Norwegian</option>
+            <option value="Finnish">Finnish</option>
+            <option value="Danish">Danish</option>
+            <option value="Hebrew">Hebrew</option>
+            <option value="Turkish">Turkish</option>
+            <option value="Thai">Thai</option>
+            <option value="Vietnamese">Vietnamese</option>
+            <option value="Hindi">Hindi</option>
+            <option value="Urdu">Urdu</option>
+            <option value="Greek">Greek</option>
+            <option value="Polish">Polish</option>
+            <option value="Czech">Czech</option>
+            <option value="Hungarian">Hungarian</option>
+            <option value="Romanian">Romanian</option>
+            <option value="Indonesian">Indonesian</option>
+            <option value="Malay">Malay</option>
+            <option value="Tagalog">Tagalog</option>
+            <option value="Persian">Persian (Farsi)</option>
+            <option value="Ukrainian">Ukrainian</option>
+            <option value="Swahili">Swahili</option>
+        </select>
+        
+        <select id="length">
+            <option value="">Length</option>
+            <option value="weeks">1-3 Weeks</option>
+            <option value="months">Months</option>
+            <option value="semesters">Semesters</option>
+        </select>
+        
+        <div class="popup-buttons">
+            <button id="clearFilters">Clear</button>
+            <button id="popupSearch">Search</button>
+        </div>
+    </div>
+</div>
+
+    <div id="resultsContainer"   class="program-grid"></div>
+    <script src="../js/program.js"></script>
+</body>
+</html>
+
+

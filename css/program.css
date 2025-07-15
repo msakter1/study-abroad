@@ -1,0 +1,172 @@
+/* body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    background: #f7f9fc;
+  } */
+
+  :root {
+    --dark-blue: #015d82;       /*   (1,93,130)    */
+    --green-blue: #009fb2;      /*   (0,159,178)    */
+    --main-blue: #009fb2;       /*   (0,120,168)    */
+    --light-blue: #d7f4ff;      /*   (215,244,255)   */
+    --orange: #f0802b;          /*   (240,128,43)    */
+}
+
+/* For the background of the program page, I want to add a gradient color from the header to the programs. But im not sure if it'd look too unprofessional. */
+
+/* Search Bar */
+  .main-search {
+    margin-top: 8%;
+  }
+  
+  
+  .search-bar {
+    display: flex;
+    gap: 0.5%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .search-bar input,
+  .search-bar select,
+  .search-bar button {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    /* border-radius: 5px; */
+  }
+  
+  .search-bar button {
+    cursor: pointer;
+    background-color: var(--main-blue);
+    color: white;
+    border: none;
+    transition: background-color 0.2s ease;
+    width: 10%;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .search-bar button:hover {
+    background-color: var(--main-blue);
+  }
+
+  /* filter Popup */
+  .popup {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 0;
+    padding: 15px;
+    background: white;
+    width: 100%;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 10px;
+    max-height: 80vh; /* Prevent it from being too tall */
+    overflow-y: auto; /* add scrolling if content is too long */
+    z-index: 1000; /* making sure it appears above other content */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); 
+  }
+
+
+  .popup select {
+    width: 100%;
+    font-size: 14px;
+    padding: 2%;
+  }
+
+  
+  .popup-buttons {
+    grid-column: span 2;
+    display: flex;
+    margin-top: 10px;
+    gap: 8px;
+  }
+  
+  .popup-buttons button {
+    padding: 2%;
+    font-weight: bold;
+    background-color: var(--main-blue);
+    color: white;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  
+.hidden {
+    display: none;
+}
+  
+
+.program-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5%;
+}
+
+.program-card {
+    background: rgb(215,244,255, 0.2);
+    padding: 1em;
+    margin: 0.5em;
+    box-shadow: 0 1px 3px rgba(0,120,168, 0.15);
+    color: var(--dark-blue);
+}
+
+.program-img img {
+    /* height: auto; 
+    object-fit: contain;
+    width: 100%; */
+
+    width: 100%;
+    aspect-ratio: 4/3; 
+    object-fit: cover;
+
+}
+
+.program-card h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.program-tags {
+    display: flex;
+    gap: 0.3rem;
+    margin: 1rem ;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tag {
+    border: 2px solid var(--dark-blue);
+    border-radius: 15px;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.program-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(1,93,130,0.15);
+}
+
+.learn-more {
+    background-color: white;
+    color: var(--orange);
+    font-size: 16px;
+    width: 100%;
+    padding: 3%;
+    border-radius: 10px;
+    border: 2px solid var(--orange);
+}
+
+
+.learn-more:hover {
+    color: black;
+    background-color: var(--orange);
+    /* border: 3px solid rgb(197, 87, 3); */
+}
+

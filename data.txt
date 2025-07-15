@@ -1,0 +1,60 @@
+[
+  { "name": "CIEE Seoul Summer Internship", "term": "summer", "country": "South Korea", "offered_by": "CIEE", "study_level": "undergraduate", "field": "Business", "type": "internship abroad", "language": "Korean", "length": "months" },
+  { "name": "CIEE Shanghai Summer Intensive Chinese", "term": "summer", "country": "China", "offered_by": "CIEE", "study_level": "undergraduate", "field": "Language & Culture", "type": "study abroad", "language": "Chinese", "length": "months" },
+  { "name": "CIEE London Psychology Semester", "term": "fall", "country": "United Kingdom", "offered_by": "CIEE", "study_level": "undergraduate", "field": "Psychology", "type": "study abroad", "length": "semesters" },
+  { "name": "CIEE Paris Graduate Business Research", "term": "spring", "country": "France", "offered_by": "CIEE", "study_level": "graduate", "field": "Business", "type": "research", "language": "French", "length": "semesters" },
+  { "name": "CIEE Cape Town Environmental Studies", "term": "spring", "country": "South Africa", "offered_by": "CIEE", "study_level": "undergraduate", "field": "Environmental Studies", "type": "study abroad", "length": "semesters" },
+  
+  { "name": "ISA Florence Art History Semester", "term": "fall", "country": "Italy", "offered_by": "ISA", "study_level": "undergraduate", "field": "Art History", "type": "study abroad", "language": "Italian", "length": "semesters" },
+  { "name": "ISA Buenos Aires Spanish Immersion", "term": "winter", "country": "Argentina", "offered_by": "ISA", "study_level": "undergraduate", "field": "Language & Culture", "type": "study abroad", "language": "Spanish", "length": "months" },
+  { "name": "ISA Sydney Engineering Internship", "term": "summer", "country": "Australia", "offered_by": "ISA", "study_level": "undergraduate", "field": "Engineering", "type": "internship abroad", "length": "months" },
+  { "name": "ISA Berlin Business & Economics", "term": "spring", "country": "Germany", "offered_by": "ISA", "study_level": "undergraduate", "field": "Business & Economics", "type": "study abroad", "language": "German", "length": "semesters" },
+  { "name": "ISA Cape Town Social Work Internship", "term": "summer", "country": "South Africa", "offered_by": "ISA", "study_level": "undergraduate", "field": "Social Work", "type": "internship abroad", "length": "months" },
+  
+  { "name": "IES Abroad Tokyo International Relations", "term": "spring", "country": "Japan", "offered_by": "IES Abroad", "study_level": "undergraduate", "field": "International Relations", "type": "study abroad", "language": "Japanese", "length": "semesters" },
+  { "name": "IES Abroad Madrid Media & Communications", "term": "summer", "country": "Spain", "offered_by": "IES Abroad", "study_level": "undergraduate", "field": "Communications", "type": "study abroad", "language": "Spanish", "length": "months" },
+  { "name": "IES Abroad Sydney Marketing Internship", "term": "summer", "country": "Australia", "offered_by": "IES Abroad", "study_level": "undergraduate", "field": "Marketing", "type": "internship abroad", "length": "months" },
+  { "name": "IES Abroad Berlin Environmental Science", "term": "fall", "country": "Germany", "offered_by": "IES Abroad", "study_level": "undergraduate", "field": "Environmental Studies", "type": "study abroad", "language": "German", "length": "semesters" },
+  { "name": "IES Abroad Copenhagen Public Health Research", "term": "spring", "country": "Denmark", "offered_by": "IES Abroad", "study_level": "graduate", "field": "Public Health", "type": "research", "length": "semesters" },
+  
+  { "name": "API London Business & Culture", "term": "winter", "country": "United Kingdom", "offered_by": "API", "study_level": "undergraduate", "field": "Business", "type": "study abroad", "length": "1-3 weeks" },
+  { "name": "API Paris Art & Museum Studies", "term": "summer", "country": "France", "offered_by": "API", "study_level": "undergraduate", "field": "Arts", "type": "study abroad", "language": "French", "length": "months" },
+  { "name": "API Cape Town Social Entrepreneurship", "term": "summer", "country": "South Africa", "offered_by": "API", "study_level": "undergraduate", "field": "Business", "type": "study abroad", "length": "months" },
+  { "name": "API Tokyo Japanese Language & Culture", "term": "summer", "country": "Japan", "offered_by": "API", "study_level": "undergraduate", "field": "Language & Culture", "type": "study abroad", "language": "Japanese", "length": "months" },
+  { "name": "API Melbourne Internship Program", "term": "spring", "country": "Australia", "offered_by": "API", "study_level": "undergraduate", "field": "Communications", "type": "internship abroad", "length": "months" },
+  
+  { "name": "SIT Costa Rica Sustainable Development", "term": "fall", "country": "Costa Rica", "offered_by": "SIT", "study_level": "undergraduate", "field": "Environmental Studies", "type": "study abroad", "language": "Spanish", "length": "semesters" },
+  { "name": "SIT Tunisia Politics & Religious Integration", "term": "fall", "country": "Tunisia", "offered_by": "SIT", "study_level": "undergraduate", "field": "Political Science", "type": "study abroad", "length": "semesters" },
+  { "name": "SIT Nepal Public Health Internship", "term": "spring", "country": "Nepal", "offered_by": "SIT", "study_level": "undergraduate", "field": "Public Health", "type": "internship abroad", "length": "months" },
+  { "name": "SIT Argentina Human Rights Semester", "term": "spring", "country": "Argentina", "offered_by": "SIT", "study_level": "undergraduate", "field": "Political Science", "type": "study abroad", "language": "Spanish", "length": "semesters" },
+  { "name": "SIT Morocco Gender Studies & Anthropology", "term": "summer", "country": "Morocco", "offered_by": "SIT", "study_level": "undergraduate", "field": "Anthropology", "type": "study abroad", "language": "Arabic", "length": "months" },
+  
+  { "name": "KIIS Rome Italian Culture & Language", "term": "summer", "country": "Italy", "offered_by": "KIIS", "study_level": "undergraduate", "field": "Language & Culture", "type": "study abroad", "language": "Italian", "length": "months" },
+  { "name": "KIIS London Film Studies", "term": "fall", "country": "United Kingdom", "offered_by": "KIIS", "study_level": "undergraduate", "field": "Film & Media", "type": "study abroad", "length": "semesters" },
+  { "name": "KIIS Granada Spanish Literature", "term": "spring", "country": "Spain", "offered_by": "KIIS", "study_level": "undergraduate", "field": "Literature", "type": "study abroad", "language": "Spanish", "length": "months" },
+  { "name": "KIIS Florence Business & Italian Culture", "term": "summer", "country": "Italy", "offered_by": "KIIS", "study_level": "undergraduate", "field": "Business", "type": "study abroad", "language": "Italian", "length": "months" },
+  { "name": "KIIS Beijing Chinese Language & Culture", "term": "summer", "country": "China", "offered_by": "KIIS", "study_level": "undergraduate", "field": "Language & Culture", "type": "study abroad", "language": "Chinese", "length": "months" },
+  
+  { "name": "KCJS Kyoto Japanese Studies", "term": "summer", "country": "Japan", "offered_by": "KCJS", "study_level": "undergraduate", "field": "Language & Culture", "type": "study abroad", "language": "Japanese", "length": "months" },
+  { "name": "KCJS Tokyo Japanese Language Intensive", "term": "summer", "country": "Japan", "offered_by": "KCJS", "study_level": "graduate", "field": "Language & Culture", "type": "study abroad", "language": "Japanese", "length": "months" },
+  
+  { "name": "Semester at Sea Global Voyage", "term": "fall", "country": "Multiple", "offered_by": "Semester at Sea", "study_level": "undergraduate", "field": "General Education", "type": "study abroad", "length": "semesters" },
+  { "name": "Semester at Sea Spring Voyage", "term": "spring", "country": "Multiple", "offered_by": "Semester at Sea", "study_level": "undergraduate", "field": "General Education", "type": "study abroad", "length": "semesters" },
+  
+  { "name": "AFS NSLI‑Y Mandarin Yearlong", "term": "fall", "country": "China", "offered_by": "AFS", "study_level": "high school", "field": "Language", "type": "study abroad", "language": "Mandarin", "length": "semesters" },
+  { "name": "AFS Japan Yearlong Exchange", "term": "fall", "country": "Japan", "offered_by": "AFS", "study_level": "high school", "field": "Language & Culture", "type": "study abroad", "language": "Japanese", "length": "semesters" },
+  
+  { "name": "NSE Western U.S. Semester", "term": "spring", "country": "USA", "offered_by": "NSE", "study_level": "undergraduate", "field": "Open", "type": "study abroad", "length": "semesters" },
+  { "name": "NSE Northeast Semester Exchange", "term": "fall", "country": "USA", "offered_by": "NSE", "study_level": "undergraduate", "field": "Open", "type": "study abroad", "length": "semesters" },
+  
+  { "name": "Global Nomads Group Ecuador Semester", "term": "fall", "country": "Ecuador", "offered_by": "Global Nomads Group", "study_level": "undergraduate", "field": "Environmental Studies", "type": "study abroad", "language": "Spanish", "length": "semesters" },
+  { "name": "Global Nomads Group India Internship", "term": "summer", "country": "India", "offered_by": "Global Nomads Group", "study_level": "undergraduate", "field": "Public Health", "type": "internship abroad", "length": "months" },
+  
+  { "name": "IES Intern in Buenos Aires", "term": "summer", "country": "Argentina", "offered_by": "IES Abroad", "study_level": "undergraduate", "field": "International Relations", "type": "internship abroad", "length": "months" },
+  { "name": "IES Intern in Berlin", "term": "spring", "country": "Germany", "offered_by": "IES Abroad", "study_level": "undergraduate", "field": "Engineering", "type": "internship abroad", "length": "months" },
+  
+  { "name": "CIEE Research in Ghana", "term": "spring", "country": "Ghana", "offered_by": "CIEE", "study_level": "undergraduate", "field": "Public Health", "type": "research", "language": "English", "length": "months" },
+  { "name": "CIEE Research in Peru", "term": "summer", "country": "Peru", "offered_by": "CIEE", "study_level": "undergraduate", "field": "Anthropology", "type": "research", "language": "Spanish", "length": "months" }
+]
+
+
